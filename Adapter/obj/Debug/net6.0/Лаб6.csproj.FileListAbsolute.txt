@@ -1,0 +1,14 @@
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\bin\Debug\net6.0\Лаб6.exe
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\bin\Debug\net6.0\Лаб6.deps.json
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\bin\Debug\net6.0\Лаб6.runtimeconfig.json
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\bin\Debug\net6.0\Лаб6.dll
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\bin\Debug\net6.0\Лаб6.pdb
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.AssemblyInfoInputs.cache
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.AssemblyInfo.cs
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.csproj.CoreCompileInputs.cache
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.dll
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\refint\Лаб6.dll
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.pdb
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\Лаб6.genruntimeconfig.cache
+C:\Users\dmitr\OneDrive\Рабочий стол\универ\ООАиП\Лаб6\Лаб6\obj\Debug\net6.0\ref\Лаб6.dll
