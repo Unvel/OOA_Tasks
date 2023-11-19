@@ -1,6 +1,6 @@
 ﻿using Library;
 
-namespace Lab_rab_4
+namespace Lab_rab_2
 {
     public class MazeBuilder
     {
@@ -13,27 +13,21 @@ namespace Lab_rab_4
                 throw new ArgumentOutOfRangeException(nameof(number), number, "Число должно быть положительным.");
             }
 
-
             ArgumentNullException.ThrowIfNull(number);
             Room room = new(number);
 
-            room.SetSide(Direction.North, new Wall());
-            room.SetSide(Direction.East, new Wall());
-            room.SetSide(Direction.South, new Wall());
-            room.SetSide(Direction.West, new Wall());
+            for (Direction direction = Direction.North; direction <= Direction.West; direction++)
+            {
+                room.SetSide(direction, new Wall());
+            }
 
             maze.AddRoom(room);
         }
         public virtual void BuildDoor(int roomNum1, int roomNum2)
         {
-            if (roomNum1 <= 0)
+            if (roomNum1 <= 0 || roomNum2 <= 0)
             {
                 throw new ArgumentOutOfRangeException(nameof(roomNum1), roomNum1, "Число должно быть положительным.");
-            }
-
-            if (roomNum2 <= 0)
-            {
-                throw new ArgumentOutOfRangeException(nameof(roomNum2), roomNum2, "Число должно быть положительным.");
             }
 
             ArgumentNullException.ThrowIfNull(roomNum1);
