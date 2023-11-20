@@ -1,6 +1,6 @@
 ﻿using Library;
 
-namespace Lab_rab_4
+namespace Lab_rab_3
 {
     public abstract class MazeFactory
     {

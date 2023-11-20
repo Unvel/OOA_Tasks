@@ -1,10 +1,10 @@
 ﻿using Library;
 
-namespace Lab_rab_3
+namespace Lab_rab_4
 {
     public class MazeGame
     {
-        public Maze Create(MazeFactory factory)
+        public Maze Create(MazeFactoryPrototype factory)
         {
             Maze maze = factory.CreateMaze();
             Room room1 = factory.CreateRoom(1);
@@ -20,6 +20,7 @@ namespace Lab_rab_3
             room2.SetSide(Direction.East, new Wall());
             room2.SetSide(Direction.South, new Wall());
             room2.SetSide(Direction.West, door);
+
             maze.AddRoom(room1);
             maze.AddRoom(room2);
 
