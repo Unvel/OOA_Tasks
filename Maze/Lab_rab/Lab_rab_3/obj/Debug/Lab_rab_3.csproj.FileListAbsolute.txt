@@ -1,0 +1,9 @@
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\bin\Debug\Lab_rab_3.exe.config
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\bin\Debug\Lab_rab_3.exe
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\bin\Debug\Lab_rab_3.pdb
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\bin\Debug\Library.dll
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\bin\Debug\Library.pdb
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\obj\Debug\Lab_rab_3.csproj.CoreCompileInputs.cache
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\obj\Debug\Lab_rab_3.csproj.CopyComplete
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\obj\Debug\Lab_rab_3.exe
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_3\obj\Debug\Lab_rab_3.pdb

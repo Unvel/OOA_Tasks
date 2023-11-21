@@ -1,0 +1,13 @@
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\obj\Debug\Lab_rab_4.csproj.AssemblyReference.cache
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\obj\Debug\Lab_rab_4.csproj.CoreCompileInputs.cache
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_4.exe.config
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_4.exe
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_4.pdb
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_1.exe
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Library.dll
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_1.pdb
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Lab_rab_1.exe.config
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\bin\Debug\Library.pdb
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\obj\Debug\Lab_rab_4.csproj.CopyComplete
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\obj\Debug\Lab_rab_4.exe
+D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_4\obj\Debug\Lab_rab_4.pdb
