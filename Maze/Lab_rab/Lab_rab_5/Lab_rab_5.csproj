@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="MazeWithBoombSingleton.cs" />
+    <Compile Include="MazeWithBombSingleton.cs" />
     <Compile Include="MazeSingleton.cs" />
     <Compile Include="MazeWithTrapSingleton.cs" />
     <Compile Include="Program.cs" />

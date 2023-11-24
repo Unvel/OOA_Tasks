@@ -44,7 +44,15 @@ namespace Lab_rab_4
         }
         public override Door CreateDoor(Room room1, Room room2)
         {
-            Door door = _prototypeDoor.Clone();
+            if (room1 == null)
+            {
+                throw new ArgumentNullException();
+            }
+            if (room2 == null)
+            {
+                throw new ArgumentNullException();
+            }
+            Door door = (Door)_prototypeDoor.Clone();
             door.Initialize(room1, room2);
             return door;
         }

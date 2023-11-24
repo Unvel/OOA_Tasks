@@ -4,3 +4,9 @@ D:\Лабы\Радилов\Maze\Lab_rab\Library\bin\Debug\Library.dll
 D:\Лабы\Радилов\Maze\Lab_rab\Library\bin\Debug\Library.pdb
 D:\Лабы\Радилов\Maze\Lab_rab\Library\obj\Debug\Library.dll
 D:\Лабы\Радилов\Maze\Lab_rab\Library\obj\Debug\Library.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Library\bin\Debug\Library.dll
+D:\Лабы\ООА\Maze\Lab_rab\Library\bin\Debug\Library.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Library\obj\Debug\Library.csproj.AssemblyReference.cache
+D:\Лабы\ООА\Maze\Lab_rab\Library\obj\Debug\Library.csproj.CoreCompileInputs.cache
+D:\Лабы\ООА\Maze\Lab_rab\Library\obj\Debug\Library.dll
+D:\Лабы\ООА\Maze\Lab_rab\Library\obj\Debug\Library.pdb

@@ -11,3 +11,16 @@ D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.csproj.Cor
 D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.csproj.CopyComplete
 D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.exe
 D:\Лабы\Радилов\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_5.exe.config
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_5.exe
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_5.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_1.exe
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Library.dll
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_1.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Lab_rab_1.exe.config
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\bin\Debug\Library.pdb
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.csproj.AssemblyReference.cache
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.csproj.CoreCompileInputs.cache
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.csproj.CopyComplete
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.exe
+D:\Лабы\ООА\Maze\Lab_rab\Lab_rab_5\obj\Debug\Lab_rab_5.pdb

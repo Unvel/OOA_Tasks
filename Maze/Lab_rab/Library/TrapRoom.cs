@@ -18,7 +18,7 @@ namespace Library
             if (_rnd.Next(2) == 0)
             {
                 Console.WriteLine("Сработала ловушка, дверь закрыта");
-                sides.OfType<TrapDoor>().ToList().ForEach(door => door.IsOpen = false);
+                sides.OfType<TrapDoor>().ToList().ForEach(door => door.isOpen = false);
             }
         }
         public TrapRoom()
