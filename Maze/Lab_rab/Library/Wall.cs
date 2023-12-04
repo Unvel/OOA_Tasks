@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -12,10 +8,11 @@ namespace Library
         {
             Console.WriteLine("Вы врезались в стену");
         }
-
         public virtual Wall Clone()
         {
-            return (Wall)this.MemberwiseClone();
+            Wall clonedWall = new Wall();
+
+            return clonedWall;
         }
     }
 }

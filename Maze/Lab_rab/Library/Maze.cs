@@ -1,8 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -20,9 +17,18 @@ namespace Library
             return _rooms.Single(room => room.Number == number);
         }
 
-        public Maze Clone()
+        public virtual Maze Clone()
         {
-            return (Maze)this.MemberwiseClone();
+            Maze clonedMaze = (Maze)this.MemberwiseClone();
+            clonedMaze._rooms = new List<Room>(_rooms.Count);
+
+            foreach (Room room in _rooms)
+            {
+                Room clonedRoom = (Room)room.Clone();
+                clonedMaze.AddRoom(clonedRoom);
+            }
+
+            return clonedMaze;
         }
     }
 }

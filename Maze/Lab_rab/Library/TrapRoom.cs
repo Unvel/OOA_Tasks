@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -18,15 +15,19 @@ namespace Library
             if (_rnd.Next(2) == 0)
             {
                 Console.WriteLine("Сработала ловушка, дверь закрыта");
-                sides.OfType<TrapDoor>().ToList().ForEach(door => door.isOpen = false);
+                Sides.OfType<TrapDoor>().ToList().ForEach(door => door.isOpen = false);
             }
         }
         public TrapRoom()
         {
         }
-        public override Room Clone()
+        public virtual TrapRoom Clone()
         {
-            return (TrapRoom)this.MemberwiseClone();
+
+            TrapRoom clonedRoom = (TrapRoom)base.Clone();
+            TrapRoom roomWithTrapClone = new TrapRoom(Number);
+
+            return roomWithTrapClone;
         }
     }
 }

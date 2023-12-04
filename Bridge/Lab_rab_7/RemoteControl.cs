@@ -2,43 +2,57 @@
 
 namespace Bridge
 {
-    public class RemoteControl
+    public class RemoteControl : IRemoteControl
     {
         protected IRemoteControl Remote { get; private set; }
         public int Power { get; protected set; }
         public int Mode { get; protected set; }
 
-        public RemoteControl(IRemoteControl Remote)
+        public RemoteControl(IRemoteControl remote)
         {
-            if (Remote == null)
-                throw new ArgumentNullException(nameof(Remote), "Ошибка   null ");
-            this.Remote = Remote;
+            if (remote == null)
+                throw new ArgumentNullException(nameof(remote), "Ошибка null ");
+            Remote = remote;
         }
+
         public void TurnOn()
         {
             Remote.TurnOn();
         }
+
         public void TurnOff()
         {
             Remote.TurnOff();
         }
-        public virtual void PowerPlus()
+
+        public void PowerPlus()
         {
             Remote.SetPower(++Power);
         }
-        public virtual void PowerMinus()
+
+        public void PowerMinus()
         {
             Remote.SetPower(--Power);
         }
-        public virtual void ModeNext()
+
+        public void ModeNext()
         {
             Remote.SetMode(++Mode);
         }
-        public virtual void ModePrevious()
+
+        public void ModePrevious()
         {
-            Remote.SetMode(++Mode);
+            Remote.SetMode(--Mode);
+        }
+
+        public void SetMode(int mode)
+        {
+            Remote.SetMode(mode);
+        }
+
+        public void SetPower(int power)
+        {
+            Remote.SetPower(power);
         }
     }
-
 }
-

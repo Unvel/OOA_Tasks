@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
@@ -24,12 +21,15 @@ namespace Library
             if (_rnd.Next(2) == 0)
             {
                 Console.WriteLine("Бомба взорвалась");
-                sides.OfType<BombWall>().ToList().ForEach(wall => wall.Enter());
+                Sides.OfType<BombWall>().ToList().ForEach(wall => wall.Enter());
             }
         }
-        public override Room Clone()
+        public virtual BombRoom Clone()
         {
-            return (BombRoom)this.MemberwiseClone();
+            BombRoom clonedRoom = (BombRoom)base.Clone();
+            BombRoom roomWithBombClone = new BombRoom(Number);
+
+            return roomWithBombClone;
         }
     }
 }

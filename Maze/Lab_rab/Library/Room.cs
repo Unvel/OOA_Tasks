@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Library
 {
     public class Room : IMapSite
     {
         public int Number { get; set; }
-        protected IMapSite[] sides = new IMapSite[4];
+        protected IMapSite[] Sides = new IMapSite[4];
         public Room(int number)
         {
             if (number <= 0)
@@ -25,12 +21,12 @@ namespace Library
 
         public IMapSite GetSide(Direction direction)
         {
-            return sides[(int)direction];
+            return Sides[(int)direction];
         }
 
         public void SetSide(Direction direction, IMapSite side)
         {
-            sides[(int)direction] = side;
+            Sides[(int)direction] = side;
         }
 
         public virtual void Enter()
@@ -43,9 +39,20 @@ namespace Library
             Number = roomNumber;
         }
 
-        public virtual Room Clone()
+        public virtual IMapSite Clone()
         {
-            return (Room)this.MemberwiseClone();
+            Room clonedRoom = (Room)this.MemberwiseClone();
+            clonedRoom.Sides = new IMapSite[Sides.Length];
+
+            for (int i = 0; i < Sides.Length; i++)
+            {
+                if (Sides[i] != null)
+                {
+                    clonedRoom.Sides[i] = Sides[i].Clone();
+                }
+            }
+
+            return clonedRoom;
         }
     }
 }
