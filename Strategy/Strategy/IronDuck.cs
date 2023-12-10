@@ -1,6 +1,10 @@
 ﻿namespace Strategy
 {
-    class IronDuck
+    public class IronDuck : Duck
     {
+        public IronDuck() : base(new NoFly(), new NoQuack(), new NoSwim())
+        { 
+
+        }
     }
 }

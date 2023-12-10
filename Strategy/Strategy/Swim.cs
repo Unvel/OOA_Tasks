@@ -6,7 +6,7 @@ namespace Strategy
     {
         public void Execute()
         {
-            Console.WriteLine("Утка плавает");
+            Console.WriteLine("Утка умеет плавать");
         }
     }
 }

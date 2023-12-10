@@ -55,6 +55,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Quack.cs" />
+    <Compile Include="RandomDuck.cs" />
     <Compile Include="RubberDuck.cs" />
     <Compile Include="Swim.cs" />
     <Compile Include="WildDuck.cs" />
