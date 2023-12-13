@@ -19,8 +19,8 @@ namespace Library
                 throw new ArgumentNullException(nameof(room2));
             }
 
-            this._room1 = room1;
-            this._room2 = room2;
+            _room1 = room1;
+            _room2 = room2;
             isOpen = true;
         }
 
@@ -61,8 +61,8 @@ namespace Library
         {
             Door clonedDoor = new Door
             {
-                _room1 = (Room)this._room1.Clone(),
-                _room2 = (Room)this._room2.Clone(),
+                _room1 = (Room)_room1.Clone(),
+                _room2 = (Room)_room2.Clone(),
                 isOpen = this.isOpen
             };
 

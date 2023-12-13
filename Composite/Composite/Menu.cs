@@ -7,9 +7,10 @@ namespace Composite
     {
         private List<MenuComponent> _menuComponents = new List<MenuComponent>();
 
-        public Menu(string name)
-            : base(name)
-        { }
+        public Menu(string name) : base(name)
+        { 
+        
+        }
 
         public override void Add(MenuComponent component)
         {

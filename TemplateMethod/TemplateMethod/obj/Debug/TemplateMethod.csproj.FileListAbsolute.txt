@@ -1,0 +1,7 @@
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.exe.config
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.exe
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\bin\Debug\TemplateMethod.pdb
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.csproj.AssemblyReference.cache
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.csproj.CoreCompileInputs.cache
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.exe
+D:\Лабы\ООА\TemplateMethod\TemplateMethod\obj\Debug\TemplateMethod.pdb

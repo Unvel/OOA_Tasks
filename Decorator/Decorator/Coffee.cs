@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Decorator
+﻿namespace Decorator
 {
     public abstract class Coffee
     {
@@ -12,7 +6,7 @@ namespace Decorator
         private string _orderLine;
         public Coffee(double price, string orderLine)
         {
-            _orderLine += orderLine;
+            _orderLine = orderLine;
             _price = price;
         }
 
