@@ -2,7 +2,7 @@
 
 namespace Proxy
 {
-    public interface IFile : IDisposable
+    public interface IFile
     {
         public double GetSize();
         public string GetPath();

@@ -45,13 +45,5 @@ namespace Proxy
             }
             return _file.Show();
         }
-
-        public void Dispose()
-        {
-            if (_file != null)
-            {
-                _file.Dispose();
-            }
-        }
     }
 }
